@@ -1,21 +1,28 @@
+/* Yattipong Sriburee
+ * 6 April 2019
+ * Socket9 Test
+ * (.NET Framework 4.5)
+*/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 
+/// </summary>
 namespace Yattipong_Socket9_Test1
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			FindWeekday test1 = new FindWeekday();
+			test1.DoFindWeekDay();
+		}
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
-        }
-    }
+		
+	}
 }
